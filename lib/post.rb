@@ -11,4 +11,10 @@ class Post
   def save
     @@all << self 
   end 
+  
+  def self.all 
+    @@all 
+  end 
+  
+  
 end 
