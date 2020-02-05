@@ -6,6 +6,6 @@ class Artist
   end 
   
   def songs 
-    songs.all.select{|song| 
+    song.all.select{|song| 
   end 
 end 
