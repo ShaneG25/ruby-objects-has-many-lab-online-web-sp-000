@@ -6,6 +6,6 @@ class Author
   end 
   
   def posts 
-    Post.selct.all{|post| post.author =
+    Post.selct.all{|post| post.author = self}
   end 
 end 
