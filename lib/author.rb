@@ -5,5 +5,7 @@ class Author
     @name = name 
   end 
   
-  def post
+  def posts 
+    Posts.selct.all{|post|
+  end 
 end 
